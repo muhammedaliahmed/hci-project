@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.nav {
+  display: flex;
+  margin-left: 20px;
+}
+.nav .nav-link {
+  display: flex;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 201px;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 49px;
+}
+.nav-link:hover {
+  cursor: pointer;
+  background-color: #efb5b5;
+
+  border-radius: 10px;
+}
+.nav .nav-link:last-child {
+  margin-right: 0px;
+}
+.header {
+  display: flex;
+  height: 123px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffd3d3;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px 0px 20px 20px;
+}
+.selected-nav-link {
+  background-color: #efb5b5;
+  border-radius: 10px;
+}
+.signout {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+
+  color: #000000;
+  text-align: end;
+}
+.user-info {
+  margin-right: 20px;
+}
+.welcome-info {
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.name {
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.orders-table-container {
+  display: flex;
+  justify-content: center;
+}
+.orders-table {
+  margin-top: 50px;
+  background: #fff2f2;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 10px;
+  width: 1320px;
+}
+
+.orders-table thead th {
+  border-bottom: 1px solid #000000;
+}
+
+.orders-table-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #000000;
+}
+.orders-table tbody td {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.date-picker-dialog {
+  position: absolute;
+  padding-top: 5px;
+
+  background: #ffffff;
+
+  border: 1px solid #f8c8c8;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+}
+.new-order-form {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  background: #fff2f2;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.new-order-form {
+  margin-top: 40px;
+}
+.new-order-form div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.new-order-form div div {
+  margin-bottom: 20px;
+}
+.new-order-form input {
+  padding: 5px;
+  background: #ffffff;
+  width: 300px;
+  height: 30px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.new-order-page {
+  display: flex;
+  justify-content: center;
+}
+
+.new-order-form button {
+  width: 100px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.button-container {
+  display: relative;
+  display: flex;
+  justify-content: center;
+}
+.button-container div:first-child {
+  display: relative;
+}
+.photo-dialog {
+  position: absolute;
+  top: 10px;
+}
+.nav-link a {
+  color: inherit;
+  text-decoration: none;
+}
